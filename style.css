@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(239, 236, 248);
+}
+.wrapper {
+    margin: auto;
+}
+nav {
+    height: 30px;
+}
+nav a{
+    padding: 3px 5px 5px 5px;
+    color: black;
+    text-decoration: none;
+}
+.active{
+    border: rgb(31, 65, 177) dotted 2px;
+}
+.clear{
+    clear: both;
+}
+header {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: salmon;
+}
+.przepis ul{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.opis{
+    margin-top: 10px;
+}
+.jpg_przepisu{
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: salmon;
+    padding: 3px 5px 5px 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f0e4e4
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn, nav a:hover {
+    color: rgb(84, 84, 245);
+    background-color: rgba(228, 232, 238, 0.219);
+  }
+
+@media only screen and (min-width: 720px) {
+    body {
+      
+    }
+
+    .wrapper {
+        max-width: 720px;
+    }
+  }
