@@ -10,19 +10,28 @@
 <body>
 <div class="wrapper">
   <header>
-    <div id="logo">Kocham Gotować!</div>
+    <div class="logo">Kocham Gotować!</div>
     <nav>
-      
-        <a class="active" href="">Strona Domowa</a>
-        <div class="dropdown">
-          <button class="dropbtn">Prześlij</button>
-          <div class="dropdown-content">
-            <a href="#">Przepis</a>
-            <a href="#">Recenzję Przepisu</a>
-          </div>
-        </div>
-        <a href="">O Serwisie</a>
-        <a href="">Kontakt</a>
+
+        <input type="checkbox" id="res-menu">
+        <label for="res-menu">
+          <span class="burger">&equiv;</span>
+        </label>
+
+        <ul id="menu">
+          <li><a class="active" href="index.html">Strona Domowa</a></li>
+          <li><a href="about.html">O Serwisie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><div class="dropdown">
+            <button class="dropbtn">Prześlij</button>
+            <div class="dropdown-content">
+              <a href="przepis.html">Przepis</a>
+              <a href="recenzja.html">Recenzję Przepisu</a>
+            </div>
+            </div>
+          </li>
+          
+        </ul>
       
     </nav>
   </header>
